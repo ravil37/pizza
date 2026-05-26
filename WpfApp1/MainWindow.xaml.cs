@@ -239,7 +239,7 @@ namespace WpfApp1
         {
             if (PromocodeTb.Text.ToUpper() == "PROMO10")
             {
-                PromocodeMessageTb.Text = "✅ Промокод применен! Скидка 10%";
+                PromocodeMessageTb.Text = "Промокод применен! Скидка 10%";
                 PromocodeMessageTb.Foreground = new SolidColorBrush(Colors.Green);
             }
             else
